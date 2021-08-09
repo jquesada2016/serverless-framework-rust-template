@@ -23,7 +23,7 @@ frameworkVersion: "2"
 provider:
   name: aws
   runtime: rust
-  # profile: serverlessAccountFAU
+  memorySize: 128
 
 # you can overwrite defaults here
 #  stage: dev
